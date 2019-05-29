@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+section, header, footer {
+    display: block;
+}
+
+#particles-js canvas{
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    background-color: #23d160;
+    pointer-events: all;
+}
+
+.partner-logo {
+    height: 10%; 
+    width: 30%;
+}
+
+#aboutnode {
+    background-color: white; 
+    padding: 5%;
+}
+
+.author {
+    width: 30%;
+}
+
+.right-author {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* DISABLES A LOT OF THINGS WHEN REACHES 1024px */
+    .todisable, .todisable-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* DISABLES A LOT OF THINGS WHEN REACHES 768px */    
+    .todisable, .todisable-h2, .todisable-img {
+        display: none;
+    }
+}
