@@ -1,39 +1,178 @@
+<!-- Website made by Gabe Oliver -->
+<!-- Website partnered with CrypticNode LLC -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>NodeJS Website - Benefits of Using Node</title>
+        <title>NodeJS Website</title>
         <meta charset="utf-8">
-        <!--<link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- OFFICIAL STYLESHEET -->
+        <link rel="stylesheet" href="css/app.css">
+        <!-- BULMA -->
+        <link rel="stylesheet" href="css/bulma.min.css" />
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutnode.html">About Node</a></li>
-                <li><a href="benefitsofnode.html">Benefits of Node</a></li>
-                <li><a href="gettingstarted.html">Getting Started with Node</a></li>
-            </ul>
-        </nav>
-        <img src="images/node.png" alt="nodejs logo" width="300px">
-        <header>
-            <h1>Benefits of Using NodeJS</h1>
-            <p>This page will list some of the core features that make NodeJS unique and why you should choose the framework for your next application!</p>
-        </header>
-        <main>
-            <h4>Easy to Learn</h4>
-            <p>NodeJS is very simular to Javascript and it is one of the most popular javascript frameworks. There are a ton of youtube videos and websites dedicated to teaching you all about node.</p>
-            <h4>NPM</h4>
-            <p>When installing node you get access to NPM or Node Package Manager giving you the freedom to import a ton of other javascript frameworks and materials (ex. express js, etc.)</p>
-            <h4>Front End and Backend</h4>
-            <p>NodeJS is both a front-end and backend framework allowing you to work on server-sided database connections and also work on the front-end html using routes.</p>
-        </main>
-        <footer>
-            <em>
-                <p>Website Designed by: <a href="mailto:gabe@crypticnode.host">gabe@crypticnode.host</a></p>
-                <p>&copy; 2019 Gabe Oliver</p>
-            </em>
-        </footeR>
+        <!-- ENTIRE SECTION -->
+        <section class="hero is-success" id="particles-js">
+            <!-- STARTS THE DIV THAT CONTAINS THE NAVBAR AND HERO -->
+            <div class="hero-head">
+                <!-- NAVBAR -->
+                <nav class="navbar">
+                    <div class="container">
+                        <!-- LOGO ON LEFT HAND SIDE OF NAVBAR -->
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="https://crypticnode.host/" target="_blank">
+                            <h2>Partnered with:</h2>
+                            <img src="https://crypticnode.host/images/logo-light.png" alt="Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            </span>
+                        </div> <!-- ENDS NAVBAR BRANDING -->
+                        <!-- NAVBAR RIGHT SIDE BUTTONS -->
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a href="index.html" class="navbar-item">
+                                Home
+                                </a>
+                                <a href="aboutnode.html" class="navbar-item" >
+                                About Node
+                                </a>
+                                <a href="benefitsofnode.html" class="navbar-item is-active" >
+                                Benefits of Node
+                                </a>
+                                <a href="gettingstarted.html" class="navbar-item" >
+                                Getting Started with Node
+                                </a>
+                                <span class="navbar-item">
+                                <a class="button is-success is-inverted" href="https://nodejs.org/en/docs/" target="_blank">
+                                <span class="icon">
+                                <i class="fas fa-external-link-alt"></i>
+                                </span>
+                                <span>NodeJS Documentation</span>
+                                </a>
+                                </span>
+                            </div>
+                        </div> <!-- ENDS RIGHT HAND BUTTONS -->
+                    </div> <!-- ENDS CONTAINER -->
+                </nav> <!-- ENDS NAVBAR -->
+            </div> <!-- ENDS HERO -->
+        </section> <!-- ENDS SECTION -->
+        <!-- STARTS FOOTER -->
+        <section id="aboutnode">
+            <div class="about-main">
+                <h1 class="has-text-centered sec section-heading">Benefits of Using NodeJS</h1>
+                <p class="has-text-centered sec section-md">This page will list all of the benefits of using NodeJS. Also, why you should choose Node for you next application.</p>
+                <p class="has-text-centered sec section-sm">Posted on: 5/31/2019 by Gabe.</p>
+                
+                <hr>
+                
+                <h2 class="has-text-left subsec subsec-heading">Some Benefits of Using Node:</h2>
+                <ul class="not-styled">
+                    <li class="li-lg">Easy to Learn</li>
+                    <p class="has-text-left subsec subsec-sm">"Since JavaScript is one of the most popular programming languages, most of the front-end developers have a good grasp over it. It becomes much easier for them to start using the Node.js at the backend. It is easier to learn Node.js and consumes less time to work with it."</p>
+                    
+                    <li class="li-lg">NPM</li>
+                    <p class="has-text-left subsec subsec-sm">When installing node you get access to NPM or Node Package Manager giving you the freedom to import a ton of other javascript frameworks and materials (ex. express js, etc.)</p>
+                    
+                    <li class="li-lg">Front End and Backend</li>
+                    <p class="has-text-left subsec subsec-sm">NodeJS is both a front-end and backend framework allowing you to work on server-sided database connections and also work on the front-end html using routes.</p>
+                    
+                    <li class="li-lg">Node.js is used as a Single Programming Language</li>
+                    <p class="has-text-left subsec subsec-sm">"Node.js offers the developers the luxury of writing the server-side applications in the JavaScript. This allows the Node.js developers to write both the front-end as well as the back-end web application in JavaScript using a runtime environment. And they don’t need to use any other server-side programming language. It also makes the deployment of the web applications simpler because almost all the web browsers support JavaScript."</p>
+                    
+                    <li class="li-lg">Known for Offering High Performance</li>
+                    <p class="has-text-left subsec subsec-sm">"Node.js uses Google's v8 Javascript engine. This engine complies the JavaScript code directly into the machine code. This makes it easier and faster to implement the code in a effective manner. The speed of the code execution also enhanced by runtime environment as it supports the non-blocking I/O operations."</p>
+                    <br>
+                <a href="http://www.tothenew.com/blog/how-are-10-global-companies-using-node-js-in-production/" target="_blank">Source here</a>
+                </ul>
+                
+                <h2 class="has-text-left subsec subsec-heading">How Can NodeJS Be Used?</h2>
+                <p class="has-text-left subsec subsec-sm">NodeJS is great for building front-end and backend applications. This means you can run server requests while also buidling amazing user-interfaces (UI). Unlike rails or ruby where they are only server-side languages NodeJS offers the best of both worlds. Some <strong>common</strong> uses for NodeJS are as follows: 
+                <ul class="not-styled">
+                    <li>Browser Games</li>
+                    <li>Chat Rooms</li>
+                    <li>Collecting Data</li>
+                    <li>Streaming</li>
+                    <li>Linux/Daemon Management</li>
+                    <li>Panels</li>
+                <a href="https://www.mindinventory.com/blog/pros-and-cons-of-node-js-web-app-development/" target="_blank">Source here</a>
+                </ul>                
+            </div>
+
+            <h2 class="has-text-left subsec subsec-heading">Creator and Founder of NodeJS (Ryan Dahl):</h2>
+            <br>
+            
+            <div class="author">
+                <div class="author-size card column is-half">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="images/founder_ryan.jpg" alt="large image of ryan dahl (founder of nodejs)">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                            <img src="images/founder_ryan.png" alt="small image of ryan dahl (founder of nodejs)" class="icon-sm rounded">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Ryan Dahl</p>
+                            <p class="subtitle is-6">Creator of NodeJS</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                    Ryan was the original creator of the javascript runtime NodeJS.
+                    <a href="https://twitter.com/Ry" target="_blank">@ry</a>.
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- STARTS FOOTER -->
+        <footer class="footer">
+            <!-- STARTS CONTAINER -->
+            <div class="container">
+                <!-- TOP SECTION OF FOOTER -->
+                <div class="content has-text-centered">
+                    <p>
+                        Website was built with <i class="fas fa-heart"></i> by <a href="mailto:gabe@crypticnode.host">Gabe Oliver</a>
+                        <br>
+                        <em>Build and provided by <a href="https://crypticnode.host" target="_blank">CrypticNode Limited</a>.</em>
+                        <br>
+                    </p>
+                </div>
+                <hr>
+                <!-- BOTTOM SECTION OF FOOTER (LINKS) -->
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-half">
+                        <p>This website was created and provided by Gabe Oliver and CrypticNode Limited. We really thank you for visiting our website. Please if you have any questions or concerns feel free to contact me at <a href="mailto:gabe@crypticnode.host">gabe@crypticnode.host</a></p>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><a href="https://crypticnode.host/privacy-policy" target="_blank">CrypticNode Privacy Policy</a></li>
+                            <li><a href="https://crypticnode.host/terms-of-service" target="_blank">CrypticNode Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><a href="https://nodejs.org/en/download/" target="_blank">NodeJS Download</a></li>
+                            <li><a href="https://nodejs.org/en/blog/" target="_blank">NodeJS News</a></li>
+                        </ul>
+                    </div>
+                </div> <!-- ENDS BOTTOM FOOTER SECTION -->
+            </div> <!-- ENDS CONTAINER -->
+        </footer> <!-- ENDS FOOTER -->
+        <!-- OFFICIAL JAVASCRIPT -->
+        <script src="javascript/app.js"></script>
+        <script src="javascript/particles.js"></script>
+        <script src="javascript/particlesconf.js"></script>
     </body>
 </html>

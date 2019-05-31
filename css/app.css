@@ -1,3 +1,4 @@
+/* FOR OLD BROWSERS */
 * {
     box-sizing: border-box;
 }
@@ -6,6 +7,7 @@ section, header, footer {
     display: block;
 }
 
+/* PARTICLES JS CANVAS */
 #particles-js canvas{
     position: absolute;
     height: 100vh;
@@ -14,28 +16,34 @@ section, header, footer {
     pointer-events: all;
 }
 
+/* THE CRYPTICNODE LOGO ON TOP */
 .partner-logo {
     height: 10%; 
     width: 30%;
 }
 
+/* THIS IS THE ABOUT NODEJS SECTION */
 #aboutnode {
     background-color: white; 
     padding: 5%;
 }
 
+/* THIS IS THE MAIN INFORMATION IN THE ABOUT NODE SECTION */
 .about-main {
     padding-bottom: 5%;
 }
 
+/* THIS IS ENSURING THE COLOR FOR THE SEC CLASS */
 .sec {
     color: #4a4a4a;
 }
 
+/* SAME AS SEC CLASS */
 .subsec {
     color: #4a4a4a; 
 }
 
+/* THIS IS TO MAKE THIS HEADING LARGER AND UPPERCASE */
 .subsec-heading {
     margin-top: 3%;
     text-transform: uppercase;
@@ -43,39 +51,71 @@ section, header, footer {
     font-size: 1.3em;
 }
 
+/* THIS TO MAKE THE TEXT FOR THE SUBSECTION SMALLER */
 .subsec-sm {
     font-weight: 100;
 }
 
+/* GIVES THE UL'S THEIR RESPECTED DOT */
 .not-styled {
     list-style-type: disc !important;
     margin-left: 5%;
 }
 
+/* THIS IS TO ENSURE THAT THE SECTION HEADING IS LARGER AND UPPERCASE */
 .section-heading {
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 700;
 }
 
+/* MAKING THIS SECTION TEXT SMALLER */
 .section-sm {
     font-size: .8em;
 }
 
+/* MAKING THIS SECTION TEXT MEDIUM */
 .section-md {
     font-size: .9em;
 }
 
+/* MAKING THIS SECTION TEXT LARGE */
 .section-lg {
     font-size: 1.2em;
 }
 
+/* THIS IS MAKING THE ENTIRE AUTHOR CARD CENTERED */
 .author {
-    align-items: center !important;
-    justify-content: center !important;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* THIS WILL MAKE AN IMAGE ROUDNED */
+.rounded {
+    border-radius: 30px;
+}
+
+/* MAKES THE LI LARGE */
+.li-lg {
+    font-size: 1.2em;
+    margin-top: 1%;
+}
+
+/* THIS IS THE SMALL ICON NEXT TO "RYAN DAHL" */
+.icon-sm {
+    height: 50px !important;
+    width: 100px !important;
+}
+
+/* THIS SETS THE WIDTH FOR THE ENTIRE CARD */
+.author-size {
     width: 550px !important;
 }
 
+/* TABLET MEDIA QUERIES */
 @media only screen and (max-width: 1024px) {
     /* DISABLES A LOT OF THINGS WHEN REACHES 1024px */
     .todisable, .todisable-img {
@@ -83,6 +123,7 @@ section, header, footer {
     }
 }
 
+/* PHONE MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
     /* DISABLES A LOT OF THINGS WHEN REACHES 768px */    
     .todisable, .todisable-h2, .todisable-img {
