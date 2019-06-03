@@ -1,36 +1,122 @@
+<!-- Website made by Gabe Oliver -->
+<!-- Website partnered with CrypticNode LLC -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>NodeJS Website - About Node</title>
+        <title>NodeJS Website</title>
         <meta charset="utf-8">
-        <!--<link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- OFFICIAL STYLESHEET -->
+        <link rel="stylesheet" href="css/app.css">
+        <!-- BULMA -->
+        <link rel="stylesheet" href="css/bulma.min.css" />
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutnode.html">About Node</a></li>
-                <li><a href="benefitsofnode.html">Benefits of Node</a></li>
-                <li><a href="gettingstarted.html">Getting Started with Node</a></li>
-            </ul>
-        </nav>
-        <img src="images/node2.png" alt="nodejs logo" width="300px">
-        <header>
-            <h1>Getting Started with Node</h1>
-            <p>This page will explain how to get started within NodeJS.</p>
-        </header>
-        <main>
-            <p>To begin starting to code in NodeJS you need to actually install the runtime on your computer. You will need to head over to Node Js website and download the latest version. This will also install NPM (node package manager) which allows you to install a TON of other javascript or node modules useful in your project.</p>
-            <p>After you have installed node you can actually begin creating files and start coding. First create a folder on your desktop called "simple-project" or whatever you want to call it. Open this folder and create a file called "app.js" or any other name with the extension of ".js". next you will need to open that file in an IDE or code editing software (I recommend Visual Studio Code). Once the file is open you can start programming! But lets first log some sample text in the console, in the document type "console.log('Hello world!')" [without the quotation marks obviously]. Then open your terminal in the directory that has the file in it and run "node app". This will run the javascript file and you should see "Hello World!" printed in the console!
-            </p>
-        </main>
-        <footer>
-            <em>
-                <p>Website Designed by: <a href="mailto:gabe@crypticnode.host">gabe@crypticnode.host</a></p>
-                <p>&copy; 2019 Gabe Oliver</p>
-            </em>
-        </footeR>
+        <!-- ENTIRE SECTION -->
+        <section class="hero is-success" id="particles-js">
+            <!-- STARTS THE DIV THAT CONTAINS THE NAVBAR AND HERO -->
+            <div class="hero-head">
+                <!-- NAVBAR -->
+                <nav class="navbar">
+                    <div class="container">
+                        <!-- LOGO ON LEFT HAND SIDE OF NAVBAR -->
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="https://crypticnode.host/" target="_blank">
+                            <h2>Partnered with:</h2>
+                            <img src="./images/logo-light.png" alt="CrypticNode Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            </span>
+                        </div> <!-- ENDS NAVBAR BRANDING -->
+                        <!-- NAVBAR RIGHT SIDE BUTTONS -->
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a href="index.html" class="navbar-item">
+                                Home
+                                </a>
+                                <a href="aboutnode.html" class="navbar-item" >
+                                About Node
+                                </a>
+                                <a href="benefitsofnode.html" class="navbar-item" >
+                                Advantages and Disadvantages
+                                </a>
+                                <a href="gettingstarted.html" class="navbar-item is-active" >
+                                Getting Started with Node
+                                </a>
+                                <span class="navbar-item">
+                                <a class="button is-success is-inverted" href="https://nodejs.org/en/docs/" target="_blank">
+                                <span class="icon">
+                                <i class="fas fa-external-link-alt"></i>
+                                </span>
+                                <span>NodeJS Documentation</span>
+                                </a>
+                                </span>
+                            </div>
+                        </div> <!-- ENDS RIGHT HAND BUTTONS -->
+                    </div> <!-- ENDS CONTAINER -->
+                </nav> <!-- ENDS NAVBAR -->
+            </div> <!-- ENDS HERO -->
+        </section> <!-- ENDS SECTION -->
+        <!-- STARTS FOOTER -->
+        <section id="aboutnode">
+            <div class="about-main">
+                <h1 class="has-text-centered sec section-heading">Getting Started With NodeJS</h1>
+                <p class="has-text-centered sec section-md">So, you are convinced to use NodeJS, great! This page will help you get started.</p>
+                <p class="has-text-centered sec section-sm">Posted on: 6/3/2019 by Gabe.</p>
+                
+                <hr>
+                
+                <h3 class="subsec subsec-heading">Installation</h3>
+                <p class="subsec subsec-sm">Before we begin building incredible web applications with NodeJS we are going to need to actually install it onto our computer. The installation is pretty straight forward.</p>
+                <br>
+                <ul class="not-styled">
+                    <li>Step 1: Download the Installer from <a href="https://nodejs.org/en/download/" target="_blank">NodeJS's Website</a>.</li>
+                </ul>
+            </div>
+        </section>
+        <!-- STARTS FOOTER -->
+        <footer class="footer">
+            <!-- STARTS CONTAINER -->
+            <div class="container">
+                <!-- TOP SECTION OF FOOTER -->
+                <div class="content has-text-centered">
+                    <p>
+                        Website was built with <i class="fas fa-heart"></i> by <a href="mailto:gabe@crypticnode.host">Gabe Oliver</a>
+                        <br>
+                        <em>Build and provided by <a href="https://crypticnode.host" target="_blank">CrypticNode Limited</a>.</em>
+                        <br>
+                    </p>
+                </div>
+                <hr>
+                <!-- BOTTOM SECTION OF FOOTER (LINKS) -->
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-half">
+                        <p>This website was created and provided by Gabe Oliver and CrypticNode Limited. We really thank you for visiting our website. Please if you have any questions or concerns feel free to contact me at <a href="mailto:gabe@crypticnode.host">gabe@crypticnode.host</a></p>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><a href="https://crypticnode.host/privacy-policy" target="_blank">CrypticNode Privacy Policy</a></li>
+                            <li><a href="https://crypticnode.host/terms-of-service" target="_blank">CrypticNode Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <ul>
+                            <li><a href="https://nodejs.org/en/download/" target="_blank">NodeJS Download</a></li>
+                            <li><a href="https://nodejs.org/en/blog/" target="_blank">NodeJS News</a></li>
+                        </ul>
+                    </div>
+                </div> <!-- ENDS BOTTOM FOOTER SECTION -->
+            </div> <!-- ENDS CONTAINER -->
+        </footer> <!-- ENDS FOOTER -->
+        <!-- OFFICIAL JAVASCRIPT -->
+        <script src="javascript/app.js"></script>
+        <script src="javascript/particles.js"></script>
+        <script src="javascript/particlesconf.js"></script>
     </body>
 </html>
