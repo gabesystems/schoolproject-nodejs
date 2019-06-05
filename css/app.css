@@ -25,7 +25,7 @@ section, header, footer {
 /* THIS IS THE ABOUT NODEJS SECTION */
 #aboutnode {
     background-color: white; 
-    padding: 5%;
+    padding: 2% 5% 2% 5%;
 }
 
 /* THIS IS ENSURING THE COLOR FOR THE SEC CLASS */
