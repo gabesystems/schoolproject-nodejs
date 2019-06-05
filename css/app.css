@@ -28,11 +28,6 @@ section, header, footer {
     padding: 5%;
 }
 
-/* THIS IS THE MAIN INFORMATION IN THE ABOUT NODE SECTION */
-.about-main {
-    padding-bottom: 5%;
-}
-
 /* THIS IS ENSURING THE COLOR FOR THE SEC CLASS */
 .sec {
     color: #4a4a4a;
