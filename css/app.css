@@ -103,6 +103,7 @@ section, header, footer {
 .icon-sm {
     height: 50px !important;
     width: 100px !important;
+    opacity: 0.8;
 }
 
 /* THIS SETS THE WIDTH FOR THE ENTIRE CARD */
