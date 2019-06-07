@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    transition: all .35s ease-in 0s;
+}
+
 section, header, footer {
     display: block;
 }
