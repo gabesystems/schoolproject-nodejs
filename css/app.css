@@ -3,16 +3,26 @@
     box-sizing: border-box;
 }
 
+/* SAME AS ABOVE */
+section, header, footer {
+    display: block;
+}
+
+/* HOVER DELAY (TRANSITION) */
 a:hover {
     transition: all .35s ease-in 0s;
 }
 
+/* REQUIRED TO VALIDATE AS I CANNOT HAVE <P> TAGS IN UL*/
 .fake-ul {
     margin-left: 5%;
 }
 
-section, header, footer {
-    display: block;
+/* MAKES THE TABLE CENTERED */
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
 }
 
 /* PARTICLES JS CANVAS */
